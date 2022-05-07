@@ -1,0 +1,23 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.5",
+    "heartbeatAt": "2022-05-07T06:40:59.751619",
+    "startedAt": "2022-05-07T06:40:23.265061",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/Junuux/Python_ML.git",
+        "commit": "0532ffe4c80b13c3218a2bfbb5c4716fbc7bfdb0"
+    },
+    "email": "jack04215@naver.com",
+    "root": "C:/Users/jack0/OneDrive/\ubc14\ud0d5 \ud654\uba74/Python_ML",
+    "host": "LAPTOP-QUG2H30L",
+    "username": "jack0",
+    "executable": "c:\\Users\\jack0\\AppData\\Local\\Programs\\Python\\Python38\\python.exe"
+}

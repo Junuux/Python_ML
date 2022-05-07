@@ -1,0 +1,1280 @@
+2022-05-07 16:08:34,400 INFO    MainThread:63568 [internal.py:wandb_internal():90] W&B internal server running at pid: 63568, started at: 2022-05-07 16:08:34.399919
+2022-05-07 16:08:34,405 INFO    WriterThread:63568 [datastore.py:open_for_write():75] open: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\run-tjk2t07a.wandb
+2022-05-07 16:08:34,417 DEBUG   SenderThread:63568 [sender.py:send():232] send: header
+2022-05-07 16:08:34,417 DEBUG   SenderThread:63568 [sender.py:send():232] send: run
+2022-05-07 16:08:39,040 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: check_version
+2022-05-07 16:08:39,084 INFO    SenderThread:63568 [dir_watcher.py:__init__():197] watching files in: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files
+2022-05-07 16:08:39,084 INFO    SenderThread:63568 [sender.py:_start_run_threads():811] run started: tjk2t07a with start time 1651907308
+2022-05-07 16:08:39,085 DEBUG   SenderThread:63568 [sender.py:send():232] send: summary
+2022-05-07 16:08:39,091 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-07 16:08:39,093 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: check_version
+2022-05-07 16:08:40,098 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\wandb-summary.json
+2022-05-07 16:08:40,184 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: run_start
+2022-05-07 16:08:46,248 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:08:53,512 DEBUG   HandlerThread:63568 [meta.py:__init__():35] meta init
+2022-05-07 16:08:53,513 DEBUG   HandlerThread:63568 [meta.py:__init__():49] meta init done
+2022-05-07 16:08:53,513 DEBUG   HandlerThread:63568 [meta.py:probe():209] probe
+2022-05-07 16:08:53,817 DEBUG   HandlerThread:63568 [meta.py:_setup_git():199] setup git
+2022-05-07 16:08:54,208 DEBUG   HandlerThread:63568 [meta.py:_setup_git():206] setup git done
+2022-05-07 16:08:54,208 DEBUG   HandlerThread:63568 [meta.py:_save_pip():53] save pip
+2022-05-07 16:08:54,210 DEBUG   HandlerThread:63568 [meta.py:_save_pip():67] save pip done
+2022-05-07 16:08:54,211 DEBUG   HandlerThread:63568 [meta.py:probe():247] probe done
+2022-05-07 16:08:54,221 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:08:54,221 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:08:54,224 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: pause
+2022-05-07 16:08:54,225 INFO    HandlerThread:63568 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-07 16:08:54,332 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\wandb-metadata.json
+2022-05-07 16:08:54,333 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\requirements.txt
+2022-05-07 16:08:54,505 DEBUG   SenderThread:63568 [sender.py:send():232] send: telemetry
+2022-05-07 16:08:54,506 DEBUG   SenderThread:63568 [sender.py:send():232] send: config
+2022-05-07 16:08:54,506 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:08:54,506 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-05-07 16:08:54,508 DEBUG   SenderThread:63568 [sender.py:send():232] send: stats
+2022-05-07 16:08:55,725 INFO    Thread-17 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2sgagcmu-wandb-metadata.json
+2022-05-07 16:09:05,282 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:09:05,282 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:09:06,456 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\config.yaml
+2022-05-07 16:09:13,356 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: resume
+2022-05-07 16:09:13,356 INFO    HandlerThread:63568 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-07 16:09:16,032 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: pause
+2022-05-07 16:09:16,032 INFO    HandlerThread:63568 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-07 16:09:16,421 DEBUG   SenderThread:63568 [sender.py:send():232] send: stats
+2022-05-07 16:09:19,208 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: resume
+2022-05-07 16:09:19,209 INFO    HandlerThread:63568 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-07 16:09:19,221 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: pause
+2022-05-07 16:09:19,221 INFO    HandlerThread:63568 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-07 16:09:19,630 DEBUG   SenderThread:63568 [sender.py:send():232] send: stats
+2022-05-07 16:09:20,604 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:09:20,605 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:09:21,300 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: resume
+2022-05-07 16:09:21,301 INFO    HandlerThread:63568 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-07 16:09:21,309 DEBUG   SenderThread:63568 [sender.py:send():232] send: telemetry
+2022-05-07 16:09:21,311 DEBUG   SenderThread:63568 [sender.py:send():232] send: telemetry
+2022-05-07 16:09:21,313 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:21,316 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file model-best.h5 with policy live
+2022-05-07 16:09:21,320 DEBUG   SenderThread:63568 [sender.py:send():232] send: telemetry
+2022-05-07 16:09:21,321 DEBUG   SenderThread:63568 [sender.py:send():232] send: telemetry
+2022-05-07 16:09:21,325 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: get_summary
+2022-05-07 16:09:22,833 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:09:23,851 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:09:24,350 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:24,353 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\graph\graph_summary_eec7fdc975e0cb7924b3.graph.json with policy now
+2022-05-07 16:09:24,718 DEBUG   SenderThread:63568 [sender.py:send():232] send: summary
+2022-05-07 16:09:24,741 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-07 16:09:24,885 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\wandb-summary.json
+2022-05-07 16:09:24,889 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\graph\graph_summary_eec7fdc975e0cb7924b3.graph.json
+2022-05-07 16:09:24,894 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\graph
+2022-05-07 16:09:24,898 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media
+2022-05-07 16:09:25,670 INFO    Thread-21 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2427vyv4-media/graph/graph_summary_eec7fdc975e0cb7924b3.graph.json
+2022-05-07 16:09:25,913 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:09:27,947 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:09:30,393 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:09:31,420 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:09:33,462 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:09:35,928 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:09:35,928 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:09:40,320 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:40,321 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_5393e380b676adc8a0d1.png with policy now
+2022-05-07 16:09:40,327 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:40,329 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_43b4457b9c6503350667.png with policy now
+2022-05-07 16:09:40,336 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:40,337 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_e873fba126a87056eb8d.png with policy now
+2022-05-07 16:09:40,345 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:40,345 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_5f9e137df95cf9429e8c.png with policy now
+2022-05-07 16:09:40,352 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:40,352 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_0276c71d125a10325640.png with policy now
+2022-05-07 16:09:40,364 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:40,365 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_2b3f04ef1f2c279ce339.png with policy now
+2022-05-07 16:09:40,389 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:40,390 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_b8c486a2a87a9e8a525a.png with policy now
+2022-05-07 16:09:40,431 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:40,434 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_5d211610a88a46201f20.png with policy now
+2022-05-07 16:09:40,448 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:40,449 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_f9963341912886a0f769.png with policy now
+2022-05-07 16:09:40,477 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:40,478 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_28df79799742cf5d486a.png with policy now
+2022-05-07 16:09:40,514 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:40,515 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_2dafb63d136cfbb3cf7f.png with policy now
+2022-05-07 16:09:40,551 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:40,552 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_9c4d2dc17dc62021be9e.png with policy now
+2022-05-07 16:09:40,593 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\config.yaml
+2022-05-07 16:09:40,597 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_b8c486a2a87a9e8a525a.png
+2022-05-07 16:09:40,600 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_5393e380b676adc8a0d1.png
+2022-05-07 16:09:40,602 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_28df79799742cf5d486a.png
+2022-05-07 16:09:40,610 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_2dafb63d136cfbb3cf7f.png
+2022-05-07 16:09:40,614 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_2b3f04ef1f2c279ce339.png
+2022-05-07 16:09:40,624 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:40,625 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_6d6e1ba086b044b50757.png with policy now
+2022-05-07 16:09:40,627 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_f9963341912886a0f769.png
+2022-05-07 16:09:40,632 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_43b4457b9c6503350667.png
+2022-05-07 16:09:40,633 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_5d211610a88a46201f20.png
+2022-05-07 16:09:40,640 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_e873fba126a87056eb8d.png
+2022-05-07 16:09:40,643 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_5f9e137df95cf9429e8c.png
+2022-05-07 16:09:40,647 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_0276c71d125a10325640.png
+2022-05-07 16:09:40,650 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_9c4d2dc17dc62021be9e.png
+2022-05-07 16:09:40,652 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media
+2022-05-07 16:09:40,653 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images
+2022-05-07 16:09:40,657 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:40,658 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_b96206e07607c59f933d.png with policy now
+2022-05-07 16:09:40,692 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:40,693 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_31a5933cf7138c85bd0b.png with policy now
+2022-05-07 16:09:40,718 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:40,719 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_4dd04a829c4a81906ab7.png with policy now
+2022-05-07 16:09:41,080 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:41,081 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_eba1799972cf5f89d955.png with policy now
+2022-05-07 16:09:41,307 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:41,308 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_54e2f01e74bd7653a337.png with policy now
+2022-05-07 16:09:41,339 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:41,340 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_a8e8ac78db07747712a4.png with policy now
+2022-05-07 16:09:41,387 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:41,389 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_dd999474c9ebc5d86e15.png with policy now
+2022-05-07 16:09:41,469 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:41,470 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_6545e81d96c0d53739cd.png with policy now
+2022-05-07 16:09:41,520 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:41,526 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_4672b95da12d181f03f0.png with policy now
+2022-05-07 16:09:41,544 INFO    Thread-22 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2p9kwks4-media/images/examples_0_5393e380b676adc8a0d1.png
+2022-05-07 16:09:41,601 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:41,602 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_ef188bc9bc160e2fbac5.png with policy now
+2022-05-07 16:09:41,695 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:41,696 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_d625b455076df4a532a4.png with policy now
+2022-05-07 16:09:41,710 INFO    Thread-25 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\9ptl33c0-media/images/examples_0_5f9e137df95cf9429e8c.png
+2022-05-07 16:09:41,808 INFO    Thread-27 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2pj1wdky-media/images/examples_0_2b3f04ef1f2c279ce339.png
+2022-05-07 16:09:41,815 INFO    Thread-23 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1hf1fehi-media/images/examples_0_43b4457b9c6503350667.png
+2022-05-07 16:09:41,844 INFO    Thread-26 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1rw9mq8j-media/images/examples_0_0276c71d125a10325640.png
+2022-05-07 16:09:41,925 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_b96206e07607c59f933d.png
+2022-05-07 16:09:41,926 INFO    Thread-24 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\59ry01rw-media/images/examples_0_e873fba126a87056eb8d.png
+2022-05-07 16:09:41,961 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_732811da00e31ff684d9.png
+2022-05-07 16:09:41,984 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:41,986 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_0d585961813297a4d22c.png with policy now
+2022-05-07 16:09:42,063 INFO    Thread-28 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\36qjubxz-media/images/examples_0_b8c486a2a87a9e8a525a.png
+2022-05-07 16:09:42,095 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_70d5eb1ad95a02f3984e.png
+2022-05-07 16:09:42,127 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:42,130 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_70d5eb1ad95a02f3984e.png with policy now
+2022-05-07 16:09:42,158 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_0d585961813297a4d22c.png
+2022-05-07 16:09:42,161 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_3d97ca27c2be7133b36d.png
+2022-05-07 16:09:42,192 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-07 16:09:42,194 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:42,195 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_732811da00e31ff684d9.png with policy now
+2022-05-07 16:09:42,208 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_4672b95da12d181f03f0.png
+2022-05-07 16:09:42,209 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_b9c40b45c19b56c81889.png
+2022-05-07 16:09:42,214 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-07 16:09:42,228 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-07 16:09:42,236 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:42,238 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_4310359f896241e9f6dc.png with policy now
+2022-05-07 16:09:42,250 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_8efdfba07ee8f4620c7d.png
+2022-05-07 16:09:42,268 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:42,268 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_b9c40b45c19b56c81889.png with policy now
+2022-05-07 16:09:42,282 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_d625b455076df4a532a4.png
+2022-05-07 16:09:42,287 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_dd999474c9ebc5d86e15.png
+2022-05-07 16:09:42,291 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_4dd04a829c4a81906ab7.png
+2022-05-07 16:09:42,292 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_113cf7130028190cb93d.png
+2022-05-07 16:09:42,301 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:42,301 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_4bd950f4382726eb2884.png with policy now
+2022-05-07 16:09:42,323 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_eba1799972cf5f89d955.png
+2022-05-07 16:09:42,336 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_4bd950f4382726eb2884.png
+2022-05-07 16:09:42,430 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:42,431 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_8c9d2ca7d3f18f8c6427.png with policy now
+2022-05-07 16:09:42,449 INFO    Thread-29 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2d0prlh9-media/images/examples_0_5d211610a88a46201f20.png
+2022-05-07 16:09:42,474 INFO    Thread-30 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\368p1nfr-media/images/examples_0_f9963341912886a0f769.png
+2022-05-07 16:09:42,504 INFO    Thread-31 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\4xf9u0zk-media/images/examples_0_28df79799742cf5d486a.png
+2022-05-07 16:09:42,511 INFO    Thread-33 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2ov0m9yy-media/images/examples_0_9c4d2dc17dc62021be9e.png
+2022-05-07 16:09:42,536 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_8c9d2ca7d3f18f8c6427.png
+2022-05-07 16:09:42,562 INFO    Thread-32 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3qke5m89-media/images/examples_0_2dafb63d136cfbb3cf7f.png
+2022-05-07 16:09:42,577 INFO    Thread-34 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3doa8z23-media/images/examples_0_6d6e1ba086b044b50757.png
+2022-05-07 16:09:42,714 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:42,716 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_cb87ff1eee3f02aa8ab3.png with policy now
+2022-05-07 16:09:42,782 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_31a5933cf7138c85bd0b.png
+2022-05-07 16:09:42,785 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_4310359f896241e9f6dc.png
+2022-05-07 16:09:42,789 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_ef188bc9bc160e2fbac5.png
+2022-05-07 16:09:42,791 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_a8e8ac78db07747712a4.png
+2022-05-07 16:09:42,799 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_cb87ff1eee3f02aa8ab3.png
+2022-05-07 16:09:42,812 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:42,812 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_113cf7130028190cb93d.png with policy now
+2022-05-07 16:09:42,838 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:42,838 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_651b05129e76cc564ac8.png with policy now
+2022-05-07 16:09:42,840 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_6545e81d96c0d53739cd.png
+2022-05-07 16:09:42,857 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_6d6e1ba086b044b50757.png
+2022-05-07 16:09:42,869 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_651b05129e76cc564ac8.png
+2022-05-07 16:09:42,915 INFO    Thread-36 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\q45gzssl-media/images/examples_0_31a5933cf7138c85bd0b.png
+2022-05-07 16:09:42,959 INFO    Thread-35 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3fdlgxh5-media/images/examples_0_b96206e07607c59f933d.png
+2022-05-07 16:09:42,961 INFO    Thread-37 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\wwphlcax-media/images/examples_0_4dd04a829c4a81906ab7.png
+2022-05-07 16:09:43,010 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:43,011 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_8efdfba07ee8f4620c7d.png with policy now
+2022-05-07 16:09:43,029 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_54e2f01e74bd7653a337.png
+2022-05-07 16:09:43,030 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images
+2022-05-07 16:09:43,048 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\model-best.h5
+2022-05-07 16:09:43,053 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:43,054 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_0_3d97ca27c2be7133b36d.png with policy now
+2022-05-07 16:09:43,090 DEBUG   SenderThread:63568 [sender.py:send():232] send: history
+2022-05-07 16:09:43,091 DEBUG   SenderThread:63568 [sender.py:send():232] send: summary
+2022-05-07 16:09:43,099 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-07 16:09:43,100 DEBUG   SenderThread:63568 [sender.py:send():232] send: summary
+2022-05-07 16:09:43,105 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-07 16:09:43,109 DEBUG   SenderThread:63568 [sender.py:send():232] send: summary
+2022-05-07 16:09:43,137 INFO    Thread-38 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2vhloa9k-media/images/examples_0_eba1799972cf5f89d955.png
+2022-05-07 16:09:43,143 INFO    Thread-40 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\276w7118-media/images/examples_0_a8e8ac78db07747712a4.png
+2022-05-07 16:09:43,155 INFO    Thread-39 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3g55fidq-media/images/examples_0_54e2f01e74bd7653a337.png
+2022-05-07 16:09:43,157 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-07 16:09:43,294 INFO    Thread-41 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2ivp8d78-media/images/examples_0_dd999474c9ebc5d86e15.png
+2022-05-07 16:09:43,294 INFO    Thread-45 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\qg4yprjp-media/images/examples_0_d625b455076df4a532a4.png
+2022-05-07 16:09:43,321 INFO    Thread-42 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1cg66ome-media/images/examples_0_6545e81d96c0d53739cd.png
+2022-05-07 16:09:43,330 INFO    Thread-44 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\cvab3iha-media/images/examples_0_ef188bc9bc160e2fbac5.png
+2022-05-07 16:09:43,480 INFO    Thread-43 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1velha8x-media/images/examples_0_4672b95da12d181f03f0.png
+2022-05-07 16:09:43,500 INFO    Thread-46 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1s1ijp3p-media/images/examples_0_0d585961813297a4d22c.png
+2022-05-07 16:09:44,245 INFO    Thread-48 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1l7tz6pb-media/images/examples_0_732811da00e31ff684d9.png
+2022-05-07 16:09:44,251 INFO    Thread-49 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\113803n4-media/images/examples_0_4310359f896241e9f6dc.png
+2022-05-07 16:09:44,259 INFO    Thread-47 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2kq95tdd-media/images/examples_0_70d5eb1ad95a02f3984e.png
+2022-05-07 16:09:44,468 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\wandb-summary.json
+2022-05-07 16:09:44,469 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:09:44,797 INFO    Thread-50 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2765c91a-media/images/examples_0_b9c40b45c19b56c81889.png
+2022-05-07 16:09:44,865 INFO    Thread-51 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\250g543g-media/images/examples_0_4bd950f4382726eb2884.png
+2022-05-07 16:09:44,910 INFO    Thread-53 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1k51oqut-media/images/examples_0_cb87ff1eee3f02aa8ab3.png
+2022-05-07 16:09:44,925 INFO    Thread-52 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\7fexigdg-media/images/examples_0_8c9d2ca7d3f18f8c6427.png
+2022-05-07 16:09:45,254 INFO    Thread-55 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\5k2kecxg-media/images/examples_0_651b05129e76cc564ac8.png
+2022-05-07 16:09:45,317 INFO    Thread-56 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3nzx5fgf-media/images/examples_0_8efdfba07ee8f4620c7d.png
+2022-05-07 16:09:45,339 INFO    Thread-54 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\foebe6wi-media/images/examples_0_113cf7130028190cb93d.png
+2022-05-07 16:09:45,360 INFO    Thread-58 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3g3mvr1k-media/images/examples_0_3d97ca27c2be7133b36d.png
+2022-05-07 16:09:45,519 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:09:47,012 INFO    Thread-59 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2uuu2g6n-media/images/examples_0_cb87ff1eee3f02aa8ab3.png
+2022-05-07 16:09:47,839 INFO    Thread-57 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2padnjy1-model-best.h5
+2022-05-07 16:09:47,878 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:09:48,200 INFO    Thread-62 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3jm9jg9w-media/images/examples_0_651b05129e76cc564ac8.png
+2022-05-07 16:09:48,201 INFO    Thread-60 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1hgqe4pk-media/images/examples_0_4bd950f4382726eb2884.png
+2022-05-07 16:09:48,231 INFO    Thread-61 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1q8mw9va-media/images/examples_0_8c9d2ca7d3f18f8c6427.png
+2022-05-07 16:09:50,039 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:09:52,098 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:09:53,709 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:53,712 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_ad357fc1bcd3915d44a8.png with policy now
+2022-05-07 16:09:53,778 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:53,779 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_6782564a3352deb44f95.png with policy now
+2022-05-07 16:09:53,845 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:53,846 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_617236eca7d5e8e610eb.png with policy now
+2022-05-07 16:09:53,925 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:53,930 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_2c311203d9c13e8c4103.png with policy now
+2022-05-07 16:09:54,044 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:54,046 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_c5490031eeccfe5190a8.png with policy now
+2022-05-07 16:09:54,095 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:54,096 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_8ebf5b53456d78da673d.png with policy now
+2022-05-07 16:09:54,161 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:54,161 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_9beb452c99558e2ecb6d.png with policy now
+2022-05-07 16:09:54,205 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:54,206 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_c07eae3e72edd3aa0a00.png with policy now
+2022-05-07 16:09:54,263 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:54,263 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_e6943f09a08cb93b3005.png with policy now
+2022-05-07 16:09:54,303 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:54,304 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_d68a289c575d519d902a.png with policy now
+2022-05-07 16:09:54,415 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:54,416 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_46e37409784086ec050c.png with policy now
+2022-05-07 16:09:54,460 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:54,461 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_4692156e21f9c5c7945d.png with policy now
+2022-05-07 16:09:54,588 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:54,590 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_b15d6c025e0e39556ede.png with policy now
+2022-05-07 16:09:54,735 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:54,737 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_903c5a6ee91377d62e76.png with policy now
+2022-05-07 16:09:54,738 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:09:54,740 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_7906a804a3a6f727d720.png
+2022-05-07 16:09:54,830 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:09:54,836 INFO    Thread-63 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\28vt9k7x-media/images/examples_1_ad357fc1bcd3915d44a8.png
+2022-05-07 16:09:54,852 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:54,853 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_7906a804a3a6f727d720.png with policy now
+2022-05-07 16:09:54,862 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_4692156e21f9c5c7945d.png
+2022-05-07 16:09:54,864 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_15334374e5f7cb3b8ea3.png
+2022-05-07 16:09:54,878 INFO    Thread-64 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1ta21rcv-media/images/examples_1_6782564a3352deb44f95.png
+2022-05-07 16:09:54,930 INFO    Thread-65 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3a9hr1iy-media/images/examples_1_617236eca7d5e8e610eb.png
+2022-05-07 16:09:54,969 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:54,969 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_4ba9bc26e159c1a2b0bb.png with policy now
+2022-05-07 16:09:54,988 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_6782564a3352deb44f95.png
+2022-05-07 16:09:54,991 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_9a3a022d2c2cbdaa558d.png
+2022-05-07 16:09:55,022 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:55,023 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_9a3a022d2c2cbdaa558d.png with policy now
+2022-05-07 16:09:55,052 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_9beb452c99558e2ecb6d.png
+2022-05-07 16:09:55,057 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_46e37409784086ec050c.png
+2022-05-07 16:09:55,075 INFO    Thread-66 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\35fq5oy5-media/images/examples_1_2c311203d9c13e8c4103.png
+2022-05-07 16:09:55,076 INFO    Thread-67 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\pjodr84r-media/images/examples_1_c5490031eeccfe5190a8.png
+2022-05-07 16:09:55,077 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_2c311203d9c13e8c4103.png
+2022-05-07 16:09:55,097 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:55,097 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_9e55db1ef77d2de7a340.png with policy now
+2022-05-07 16:09:55,098 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_d68a289c575d519d902a.png
+2022-05-07 16:09:55,106 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_903c5a6ee91377d62e76.png
+2022-05-07 16:09:55,107 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_617236eca7d5e8e610eb.png
+2022-05-07 16:09:55,108 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_8ebf5b53456d78da673d.png
+2022-05-07 16:09:55,110 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_462947bc43ba5447ad70.png
+2022-05-07 16:09:55,142 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:55,143 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_462947bc43ba5447ad70.png with policy now
+2022-05-07 16:09:55,146 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_9e55db1ef77d2de7a340.png
+2022-05-07 16:09:55,147 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_ad357fc1bcd3915d44a8.png
+2022-05-07 16:09:55,151 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_c5490031eeccfe5190a8.png
+2022-05-07 16:09:55,154 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_b15d6c025e0e39556ede.png
+2022-05-07 16:09:55,170 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_c07eae3e72edd3aa0a00.png
+2022-05-07 16:09:55,184 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_e6943f09a08cb93b3005.png
+2022-05-07 16:09:55,198 INFO    Thread-68 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\19zumnv1-media/images/examples_1_8ebf5b53456d78da673d.png
+2022-05-07 16:09:55,202 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_4ba9bc26e159c1a2b0bb.png
+2022-05-07 16:09:55,213 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images
+2022-05-07 16:09:55,247 INFO    Thread-69 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\30qsk1gp-media/images/examples_1_9beb452c99558e2ecb6d.png
+2022-05-07 16:09:55,267 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:55,268 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_15334374e5f7cb3b8ea3.png with policy now
+2022-05-07 16:09:55,300 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:55,301 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_af0cdb50eee4ca14a232.png with policy now
+2022-05-07 16:09:55,329 INFO    Thread-71 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\menh7l78-media/images/examples_1_e6943f09a08cb93b3005.png
+2022-05-07 16:09:55,338 INFO    Thread-70 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\6rdso4ls-media/images/examples_1_c07eae3e72edd3aa0a00.png
+2022-05-07 16:09:55,426 INFO    Thread-73 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1hmgr1gu-media/images/examples_1_46e37409784086ec050c.png
+2022-05-07 16:09:55,441 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:55,442 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_c3550fecf90b93519f71.png with policy now
+2022-05-07 16:09:55,529 INFO    Thread-74 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\19i8hqkk-media/images/examples_1_4692156e21f9c5c7945d.png
+2022-05-07 16:09:55,566 INFO    Thread-72 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2prurvur-media/images/examples_1_d68a289c575d519d902a.png
+2022-05-07 16:09:55,593 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:55,593 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_7aaaae72a84b8b5ec549.png with policy now
+2022-05-07 16:09:55,684 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:55,685 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_57c3acd927747033cac0.png with policy now
+2022-05-07 16:09:55,708 INFO    Thread-75 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3h68snnh-media/images/examples_1_b15d6c025e0e39556ede.png
+2022-05-07 16:09:55,775 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-07 16:09:55,778 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-07 16:09:55,781 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-07 16:09:55,808 INFO    Thread-76 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2gkruksr-media/images/examples_1_903c5a6ee91377d62e76.png
+2022-05-07 16:09:55,810 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:09:55,877 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_57c3acd927747033cac0.png
+2022-05-07 16:09:55,884 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_145fb5927b8896636043.png
+2022-05-07 16:09:56,231 INFO    Thread-79 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\x6u4vll1-media/images/examples_1_9a3a022d2c2cbdaa558d.png
+2022-05-07 16:09:56,245 INFO    Thread-78 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2npaugo9-media/images/examples_1_4ba9bc26e159c1a2b0bb.png
+2022-05-07 16:09:56,257 INFO    Thread-81 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3rnrkxku-media/images/examples_1_462947bc43ba5447ad70.png
+2022-05-07 16:09:56,258 INFO    Thread-80 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\9xgy8uv5-media/images/examples_1_9e55db1ef77d2de7a340.png
+2022-05-07 16:09:56,259 INFO    Thread-77 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\747duvtc-media/images/examples_1_7906a804a3a6f727d720.png
+2022-05-07 16:09:56,628 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_0138c7edece52c20918b.png
+2022-05-07 16:09:56,637 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:56,643 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_f5ea2ed819de495cdf96.png with policy now
+2022-05-07 16:09:56,710 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_675e6f08a7f80369b673.png
+2022-05-07 16:09:56,712 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:56,713 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_c81d3038510111989949.png with policy now
+2022-05-07 16:09:56,797 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:56,798 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_145fb5927b8896636043.png with policy now
+2022-05-07 16:09:56,801 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_7aaaae72a84b8b5ec549.png
+2022-05-07 16:09:56,812 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_c81d3038510111989949.png
+2022-05-07 16:09:56,817 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_a61f07f61c0c1ffc03c7.png
+2022-05-07 16:09:56,904 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:56,905 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_f5ea2ed819de495cdf96.png
+2022-05-07 16:09:56,906 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_0138c7edece52c20918b.png with policy now
+2022-05-07 16:09:56,912 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_c229ba572d8a2c1b5193.png
+2022-05-07 16:09:56,967 INFO    Thread-82 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\33etuip6-media/images/examples_1_15334374e5f7cb3b8ea3.png
+2022-05-07 16:09:56,989 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:56,991 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_c3f8c46687fe687f1538.png
+2022-05-07 16:09:56,994 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_c3f8c46687fe687f1538.png with policy now
+2022-05-07 16:09:57,042 INFO    Thread-83 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\16lvp6f0-media/images/examples_1_af0cdb50eee4ca14a232.png
+2022-05-07 16:09:57,096 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:57,100 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_f56a8fde1154ba895b35.png with policy now
+2022-05-07 16:09:57,132 INFO    Thread-85 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\20i2vs7j-media/images/examples_1_7aaaae72a84b8b5ec549.png
+2022-05-07 16:09:57,149 INFO    Thread-84 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3u1wvuuz-media/images/examples_1_c3550fecf90b93519f71.png
+2022-05-07 16:09:57,181 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_f56a8fde1154ba895b35.png
+2022-05-07 16:09:57,197 INFO    Thread-86 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1ydv621l-media/images/examples_1_57c3acd927747033cac0.png
+2022-05-07 16:09:57,270 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:57,271 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_e7262b2a60e2187d057c.png with policy now
+2022-05-07 16:09:57,326 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_8462e23a2eae65b5f9f5.png
+2022-05-07 16:09:57,419 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:57,419 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_675e6f08a7f80369b673.png with policy now
+2022-05-07 16:09:57,475 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_c3550fecf90b93519f71.png
+2022-05-07 16:09:57,478 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_e7262b2a60e2187d057c.png
+2022-05-07 16:09:57,481 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_63f52bce49964689f4ab.png
+2022-05-07 16:09:57,515 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:57,516 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_c229ba572d8a2c1b5193.png with policy now
+2022-05-07 16:09:57,609 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_af0cdb50eee4ca14a232.png
+2022-05-07 16:09:57,612 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images
+2022-05-07 16:09:57,613 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\model-best.h5
+2022-05-07 16:09:57,653 INFO    Thread-87 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\15pzt8rm-media/images/examples_1_f5ea2ed819de495cdf96.png
+2022-05-07 16:09:57,678 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:57,679 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_a61f07f61c0c1ffc03c7.png with policy now
+2022-05-07 16:09:57,801 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:57,805 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_8462e23a2eae65b5f9f5.png with policy now
+2022-05-07 16:09:57,851 INFO    Thread-88 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2h2fh6u8-media/images/examples_1_c81d3038510111989949.png
+2022-05-07 16:09:57,894 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:09:57,895 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_1_63f52bce49964689f4ab.png with policy now
+2022-05-07 16:09:57,955 INFO    Thread-89 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1or4ic1b-media/images/examples_1_145fb5927b8896636043.png
+2022-05-07 16:09:58,015 INFO    Thread-90 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\lpu0pl4b-media/images/examples_1_0138c7edece52c20918b.png
+2022-05-07 16:09:58,095 INFO    Thread-91 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\28ikuynh-media/images/examples_1_c3f8c46687fe687f1538.png
+2022-05-07 16:09:58,133 DEBUG   SenderThread:63568 [sender.py:send():232] send: history
+2022-05-07 16:09:58,135 DEBUG   SenderThread:63568 [sender.py:send():232] send: summary
+2022-05-07 16:09:58,143 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-07 16:09:58,146 DEBUG   SenderThread:63568 [sender.py:send():232] send: summary
+2022-05-07 16:09:58,153 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-07 16:09:58,155 DEBUG   SenderThread:63568 [sender.py:send():232] send: summary
+2022-05-07 16:09:58,159 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-07 16:09:58,171 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:09:58,241 INFO    Thread-92 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\13x035rf-media/images/examples_1_f56a8fde1154ba895b35.png
+2022-05-07 16:09:58,489 INFO    Thread-93 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\tn0kuis9-media/images/examples_1_e7262b2a60e2187d057c.png
+2022-05-07 16:09:58,572 INFO    Thread-94 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1p6xqkv2-media/images/examples_1_675e6f08a7f80369b673.png
+2022-05-07 16:09:58,923 INFO    Thread-96 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\889bfbp6-media/images/examples_1_a61f07f61c0c1ffc03c7.png
+2022-05-07 16:09:58,935 INFO    Thread-98 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\82wq25y4-media/images/examples_1_c3f8c46687fe687f1538.png
+2022-05-07 16:09:58,944 INFO    Thread-97 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2opqth0v-media/images/examples_1_8462e23a2eae65b5f9f5.png
+2022-05-07 16:09:59,349 INFO    Thread-100:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2dvpiict-media/images/examples_1_f56a8fde1154ba895b35.png
+2022-05-07 16:09:59,365 INFO    Thread-99 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1ljy9ggm-media/images/examples_1_63f52bce49964689f4ab.png
+2022-05-07 16:09:59,366 INFO    Thread-95 :63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3b0l5tmh-media/images/examples_1_c229ba572d8a2c1b5193.png
+2022-05-07 16:09:59,759 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\wandb-summary.json
+2022-05-07 16:09:59,762 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:10:01,895 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:10:03,443 DEBUG   SenderThread:63568 [sender.py:send():232] send: stats
+2022-05-07 16:10:04,595 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:10:06,483 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:06,484 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_51c853dcadb856ec5f7b.png with policy now
+2022-05-07 16:10:06,533 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:06,534 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_64804ea71bfb2dfdfef6.png with policy now
+2022-05-07 16:10:06,615 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:06,616 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_b70f2e212ef6eb7a204f.png with policy now
+2022-05-07 16:10:06,686 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:06,686 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_39520f74cde49f7d60aa.png with policy now
+2022-05-07 16:10:06,753 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:10:06,755 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_b74995f0d3e36d88a3af.png
+2022-05-07 16:10:06,776 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:06,776 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_7ca4143e2914f325d07c.png with policy now
+2022-05-07 16:10:06,825 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_7ca4143e2914f325d07c.png
+2022-05-07 16:10:06,849 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:06,850 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_b74995f0d3e36d88a3af.png with policy now
+2022-05-07 16:10:06,920 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_b70f2e212ef6eb7a204f.png
+2022-05-07 16:10:06,922 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_11eebd54e37822eea9b5.png
+2022-05-07 16:10:06,931 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:06,932 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_0ab43bf5b98d22f7934d.png with policy now
+2022-05-07 16:10:07,026 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_64804ea71bfb2dfdfef6.png
+2022-05-07 16:10:07,031 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_51c853dcadb856ec5f7b.png
+2022-05-07 16:10:07,033 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_39520f74cde49f7d60aa.png
+2022-05-07 16:10:07,035 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_0ab43bf5b98d22f7934d.png
+2022-05-07 16:10:07,039 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:07,040 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_11eebd54e37822eea9b5.png with policy now
+2022-05-07 16:10:07,137 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:07,139 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_9020ccdb76e5f1a2ff42.png with policy now
+2022-05-07 16:10:07,148 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images
+2022-05-07 16:10:07,254 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:07,255 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_34db9f3839998ec72ee4.png with policy now
+2022-05-07 16:10:07,337 INFO    Thread-101:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3i0q41gi-media/images/examples_2_51c853dcadb856ec5f7b.png
+2022-05-07 16:10:07,338 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:07,339 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_893fbe7c8e2c73f8f5da.png with policy now
+2022-05-07 16:10:07,445 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:07,445 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_d0fcbf19516f02e34d65.png with policy now
+2022-05-07 16:10:07,459 INFO    Thread-102:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\b3bkz8jn-media/images/examples_2_64804ea71bfb2dfdfef6.png
+2022-05-07 16:10:07,474 INFO    Thread-103:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\sggq4ebg-media/images/examples_2_b70f2e212ef6eb7a204f.png
+2022-05-07 16:10:07,548 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:07,549 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_222a828dc05065d22c3c.png with policy now
+2022-05-07 16:10:07,622 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:07,623 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_3295a7df1fa602684c71.png with policy now
+2022-05-07 16:10:07,657 INFO    Thread-105:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3avjagg4-media/images/examples_2_7ca4143e2914f325d07c.png
+2022-05-07 16:10:07,727 INFO    Thread-104:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\23fpn40h-media/images/examples_2_39520f74cde49f7d60aa.png
+2022-05-07 16:10:07,744 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:07,745 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_7f8462590c866774e68b.png with policy now
+2022-05-07 16:10:07,751 INFO    Thread-106:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1hy4keup-media/images/examples_2_b74995f0d3e36d88a3af.png
+2022-05-07 16:10:07,818 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:07,819 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_e152509f7daa47b1ad84.png with policy now
+2022-05-07 16:10:07,834 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_20b33080195f7b51fc95.png
+2022-05-07 16:10:07,844 INFO    Thread-107:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3keuj2t0-media/images/examples_2_0ab43bf5b98d22f7934d.png
+2022-05-07 16:10:07,892 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-07 16:10:07,895 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-07 16:10:07,896 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-07 16:10:07,899 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:07,901 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_06157aa1ea9a2e001920.png with policy now
+2022-05-07 16:10:07,908 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_06157aa1ea9a2e001920.png
+2022-05-07 16:10:07,948 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:07,950 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_4401825296efa27d1396.png with policy now
+2022-05-07 16:10:07,997 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_dd92b9cb800c5616fe08.png
+2022-05-07 16:10:08,013 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: pause
+2022-05-07 16:10:08,016 INFO    HandlerThread:63568 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-07 16:10:08,078 INFO    Thread-108:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1xt46iwt-media/images/examples_2_11eebd54e37822eea9b5.png
+2022-05-07 16:10:08,122 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:08,122 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_1d1e6ae2e68b409d5446.png with policy now
+2022-05-07 16:10:08,141 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_d0fcbf19516f02e34d65.png
+2022-05-07 16:10:08,142 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_222a828dc05065d22c3c.png
+2022-05-07 16:10:08,144 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_f8aa47a50bf0e891a4b0.png
+2022-05-07 16:10:08,178 INFO    Thread-110:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2bramxl8-media/images/examples_2_34db9f3839998ec72ee4.png
+2022-05-07 16:10:08,444 INFO    Thread-111:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1x8ptkpd-media/images/examples_2_893fbe7c8e2c73f8f5da.png
+2022-05-07 16:10:08,468 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:08,469 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_d681fea13eba624b0065.png with policy now
+2022-05-07 16:10:08,478 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_c0c667e9f0034f422db0.png
+2022-05-07 16:10:08,499 INFO    Thread-109:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\gx4r7nn7-media/images/examples_2_9020ccdb76e5f1a2ff42.png
+2022-05-07 16:10:08,529 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:08,529 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_d528375d15bba4b2ce88.png with policy now
+2022-05-07 16:10:08,543 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_f052d0109611fe66de5b.png
+2022-05-07 16:10:08,569 INFO    Thread-113:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\sldyjv4c-media/images/examples_2_222a828dc05065d22c3c.png
+2022-05-07 16:10:08,573 INFO    Thread-112:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2qr7y03w-media/images/examples_2_d0fcbf19516f02e34d65.png
+2022-05-07 16:10:08,599 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:08,599 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_c0c667e9f0034f422db0.png with policy now
+2022-05-07 16:10:08,611 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_34db9f3839998ec72ee4.png
+2022-05-07 16:10:08,612 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_8929601781ba6c3c9223.png
+2022-05-07 16:10:08,632 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:08,632 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_f052d0109611fe66de5b.png with policy now
+2022-05-07 16:10:08,640 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_3e66279dff5106ae0090.png
+2022-05-07 16:10:08,667 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:08,668 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_f826754365fe847c556c.png with policy now
+2022-05-07 16:10:08,676 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_d528375d15bba4b2ce88.png
+2022-05-07 16:10:08,677 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_5921725ec478f20de508.png
+2022-05-07 16:10:08,702 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:08,702 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_1256a11ef293a44f9dba.png with policy now
+2022-05-07 16:10:08,713 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_1d1e6ae2e68b409d5446.png
+2022-05-07 16:10:08,716 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_7f8462590c866774e68b.png
+2022-05-07 16:10:08,717 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_4401825296efa27d1396.png
+2022-05-07 16:10:08,718 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_0aa28edfcf943378073d.png
+2022-05-07 16:10:08,733 INFO    Thread-115:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\13i2wtbp-media/images/examples_2_3295a7df1fa602684c71.png
+2022-05-07 16:10:08,744 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:08,744 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_dd92b9cb800c5616fe08.png with policy now
+2022-05-07 16:10:08,757 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_893fbe7c8e2c73f8f5da.png
+2022-05-07 16:10:08,758 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_1256a11ef293a44f9dba.png
+2022-05-07 16:10:08,765 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_3295a7df1fa602684c71.png
+2022-05-07 16:10:08,771 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_691728e319a4869946b6.png
+2022-05-07 16:10:08,771 INFO    Thread-114:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1jvcx6y4-media/images/examples_2_7ca4143e2914f325d07c.png
+2022-05-07 16:10:08,802 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:08,803 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_691728e319a4869946b6.png with policy now
+2022-05-07 16:10:08,817 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_d681fea13eba624b0065.png
+2022-05-07 16:10:08,818 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_9020ccdb76e5f1a2ff42.png
+2022-05-07 16:10:08,819 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_839d46b4a2e94a6823fd.png
+2022-05-07 16:10:08,840 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:08,840 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_3e66279dff5106ae0090.png with policy now
+2022-05-07 16:10:08,864 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_4a4199b4a6ae427ed48a.png
+2022-05-07 16:10:08,882 INFO    Thread-116:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2sk9bm2r-media/images/examples_2_7f8462590c866774e68b.png
+2022-05-07 16:10:08,899 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:08,899 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_5921725ec478f20de508.png with policy now
+2022-05-07 16:10:08,914 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_f826754365fe847c556c.png
+2022-05-07 16:10:08,914 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_04cbdb09210095cb6b67.png
+2022-05-07 16:10:08,925 INFO    Thread-119:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1816axr1-media/images/examples_2_06157aa1ea9a2e001920.png
+2022-05-07 16:10:08,946 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:08,947 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_839d46b4a2e94a6823fd.png with policy now
+2022-05-07 16:10:08,970 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_created():244] file/dir created: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_e152509f7daa47b1ad84.png
+2022-05-07 16:10:08,972 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images
+2022-05-07 16:10:08,972 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\model-best.h5
+2022-05-07 16:10:08,989 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:08,989 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_20b33080195f7b51fc95.png with policy now
+2022-05-07 16:10:09,005 INFO    Thread-117:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3felu8e2-media/images/examples_2_0ab43bf5b98d22f7934d.png
+2022-05-07 16:10:09,007 INFO    Thread-118:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3wmylhsk-media/images/examples_2_e152509f7daa47b1ad84.png
+2022-05-07 16:10:09,037 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:09,038 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_f8aa47a50bf0e891a4b0.png with policy now
+2022-05-07 16:10:09,050 INFO    Thread-120:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2fyu9aje-media/images/examples_2_4401825296efa27d1396.png
+2022-05-07 16:10:09,097 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:09,098 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_8929601781ba6c3c9223.png with policy now
+2022-05-07 16:10:09,134 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:09,134 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_04cbdb09210095cb6b67.png with policy now
+2022-05-07 16:10:09,173 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:09,173 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_0aa28edfcf943378073d.png with policy now
+2022-05-07 16:10:09,208 DEBUG   SenderThread:63568 [sender.py:send():232] send: files
+2022-05-07 16:10:09,208 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file media\images\examples_2_4a4199b4a6ae427ed48a.png with policy now
+2022-05-07 16:10:09,248 DEBUG   SenderThread:63568 [sender.py:send():232] send: history
+2022-05-07 16:10:09,248 DEBUG   SenderThread:63568 [sender.py:send():232] send: summary
+2022-05-07 16:10:09,251 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-07 16:10:09,251 DEBUG   SenderThread:63568 [sender.py:send():232] send: summary
+2022-05-07 16:10:09,254 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-07 16:10:09,256 DEBUG   SenderThread:63568 [sender.py:send():232] send: summary
+2022-05-07 16:10:09,258 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-07 16:10:09,260 DEBUG   SenderThread:63568 [sender.py:send():232] send: stats
+2022-05-07 16:10:09,301 INFO    Thread-121:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1o7mdro9-media/images/examples_2_1d1e6ae2e68b409d5446.png
+2022-05-07 16:10:09,357 INFO    Thread-122:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2ue2mix7-media/images/examples_2_d681fea13eba624b0065.png
+2022-05-07 16:10:09,440 INFO    Thread-123:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\117b8upu-media/images/examples_2_d528375d15bba4b2ce88.png
+2022-05-07 16:10:09,885 INFO    Thread-127:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3ma2ta54-media/images/examples_2_1256a11ef293a44f9dba.png
+2022-05-07 16:10:09,946 INFO    Thread-126:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2nwne2se-media/images/examples_2_f826754365fe847c556c.png
+2022-05-07 16:10:09,948 INFO    Thread-124:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3l5us481-media/images/examples_2_c0c667e9f0034f422db0.png
+2022-05-07 16:10:09,951 INFO    Thread-131:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2q3sg12p-media/images/examples_2_06157aa1ea9a2e001920.png
+2022-05-07 16:10:10,016 INFO    Thread-133:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2ggitdof-media/images/examples_2_839d46b4a2e94a6823fd.png
+2022-05-07 16:10:10,029 INFO    Thread-125:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1tkhhhxn-media/images/examples_2_f052d0109611fe66de5b.png
+2022-05-07 16:10:10,082 INFO    Thread-132:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\7601q7mt-media/images/examples_2_5921725ec478f20de508.png
+2022-05-07 16:10:10,082 INFO    Thread-130:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\4fksbx4n-media/images/examples_2_3e66279dff5106ae0090.png
+2022-05-07 16:10:10,084 INFO    Thread-129:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3n1x40vo-media/images/examples_2_691728e319a4869946b6.png
+2022-05-07 16:10:10,259 INFO    Thread-135:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\21jvsapl-media/images/examples_2_f8aa47a50bf0e891a4b0.png
+2022-05-07 16:10:10,269 INFO    Thread-137:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\10mvor99-media/images/examples_2_04cbdb09210095cb6b67.png
+2022-05-07 16:10:10,494 INFO    Thread-138:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3b61p5uc-media/images/examples_2_0aa28edfcf943378073d.png
+2022-05-07 16:10:10,543 INFO    Thread-136:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\1nkne1hn-media/images/examples_2_8929601781ba6c3c9223.png
+2022-05-07 16:10:10,599 INFO    Thread-139:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3pkui9x3-media/images/examples_2_4a4199b4a6ae427ed48a.png
+2022-05-07 16:10:10,922 INFO    Thread-134:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\38gxyyxw-media/images/examples_2_20b33080195f7b51fc95.png
+2022-05-07 16:10:10,943 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\wandb-summary.json
+2022-05-07 16:10:10,943 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:10:11,653 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:10:11,653 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:10:14,510 INFO    Thread-128:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\2fc9hmz2-media/images/examples_2_dd92b9cb800c5616fe08.png
+2022-05-07 16:10:26,892 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:10:26,892 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:10:42,130 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:10:42,131 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:10:57,426 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:10:57,426 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:11:12,761 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:11:12,762 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:11:28,221 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:11:28,222 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:11:45,300 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:11:45,300 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:12:00,591 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:12:00,592 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:12:16,005 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:12:16,006 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:12:31,355 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:12:31,356 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:12:46,687 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:12:46,687 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:13:02,034 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:13:02,035 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:13:17,375 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:13:17,376 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:13:34,194 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:13:34,194 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:13:49,437 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:13:49,437 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:14:04,764 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:14:04,765 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:14:20,133 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:14:20,133 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:14:35,658 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:14:35,660 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:14:51,229 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:14:51,230 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:15:03,195 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: resume
+2022-05-07 16:15:03,196 INFO    HandlerThread:63568 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-05-07 16:15:05,278 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-07 16:15:05,280 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-07 16:15:05,281 DEBUG   SenderThread:63568 [sender.py:send():232] send: history
+2022-05-07 16:15:05,283 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: pause
+2022-05-07 16:15:05,283 DEBUG   SenderThread:63568 [sender.py:send():232] send: summary
+2022-05-07 16:15:05,283 INFO    HandlerThread:63568 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-05-07 16:15:05,287 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-07 16:15:05,288 DEBUG   SenderThread:63568 [sender.py:send():232] send: history
+2022-05-07 16:15:05,289 DEBUG   SenderThread:63568 [sender.py:send():232] send: summary
+2022-05-07 16:15:05,293 INFO    SenderThread:63568 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-07 16:15:05,534 DEBUG   SenderThread:63568 [sender.py:send():232] send: stats
+2022-05-07 16:15:06,593 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:15:06,594 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:15:06,653 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\wandb-summary.json
+2022-05-07 16:15:06,654 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:15:08,690 INFO    Thread-11 :63568 [dir_watcher.py:_on_file_modified():257] file/dir modified: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 16:15:22,028 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:15:22,029 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:15:37,309 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:15:37,310 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:15:52,578 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:15:52,578 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:16:07,843 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:16:07,843 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:16:25,661 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:16:25,662 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:16:43,027 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:16:43,027 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:16:58,343 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:16:58,343 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:17:13,605 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:17:13,605 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:17:28,875 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:17:28,876 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:17:44,199 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:17:44,200 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 16:17:59,470 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 16:17:59,470 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 17:56:06,386 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 17:56:06,386 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 17:56:22,725 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 17:56:22,726 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 17:56:37,946 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 17:56:37,946 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 17:56:53,207 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 17:56:53,207 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 17:57:08,469 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 17:57:08,469 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 17:57:23,722 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 17:57:23,723 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 17:57:38,963 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 17:57:38,963 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 17:57:54,238 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 17:57:54,239 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 17:58:09,511 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 17:58:09,512 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 17:58:24,849 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 17:58:24,850 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 17:58:40,262 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 17:58:40,262 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 17:58:55,511 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 17:58:55,511 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 17:59:10,776 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 17:59:10,779 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 17:59:26,091 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 17:59:26,092 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 17:59:41,367 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 17:59:41,368 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 17:59:56,653 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 17:59:56,654 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:00:11,973 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:00:11,976 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:00:27,308 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:00:27,308 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:00:42,557 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:00:42,558 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:00:57,837 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:00:57,837 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:01:13,144 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:01:13,145 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:01:28,714 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:01:28,715 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:01:44,330 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:01:44,331 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:01:59,598 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:01:59,599 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:02:15,002 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:02:15,002 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:02:30,318 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:02:30,319 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:02:45,622 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:02:45,623 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:03:01,854 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:03:01,855 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:03:17,111 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:03:17,111 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:03:32,372 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:03:32,372 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:03:47,629 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:03:47,629 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:04:02,926 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:04:02,927 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:04:18,216 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:04:18,217 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:04:33,507 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:04:33,508 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:04:48,827 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:04:48,827 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:05:04,068 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:05:04,068 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:05:19,385 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:05:19,386 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:05:34,659 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:05:34,659 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:05:49,951 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:05:49,952 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:06:05,844 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:06:05,845 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:06:21,112 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:06:21,112 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:06:36,359 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:06:36,360 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:06:51,699 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:06:51,700 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:07:07,011 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:07:07,012 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:07:22,392 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:07:22,394 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:07:37,707 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:07:37,708 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:07:53,064 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:07:53,065 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:08:13,096 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:08:13,097 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:08:28,375 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:08:28,376 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:08:43,653 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:08:43,653 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:08:58,959 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:08:58,960 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:09:14,313 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:09:14,314 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:09:29,633 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:09:29,634 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:09:45,085 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:09:45,086 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:10:00,356 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:10:00,357 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:10:15,629 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:10:15,630 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:10:30,904 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:10:30,904 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:10:46,283 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:10:46,284 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:11:01,548 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:11:01,549 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:11:16,839 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:11:16,840 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:11:32,072 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:11:32,073 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:11:47,343 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:11:47,344 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:12:02,656 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:12:02,657 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:12:17,975 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:12:17,978 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:12:33,537 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:12:33,537 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:12:48,873 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:12:48,873 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:13:04,109 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:13:04,109 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:13:19,418 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:13:19,419 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:13:36,329 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:13:36,330 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:13:51,620 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:13:51,621 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:14:10,203 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:14:10,204 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:14:26,936 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:14:26,937 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:14:42,239 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:14:42,240 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:14:57,483 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:14:57,484 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:15:13,617 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:15:13,618 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:15:28,916 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:15:28,916 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:15:44,187 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:15:44,187 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:15:59,417 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:15:59,418 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:16:14,688 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:16:14,689 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:16:29,994 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:16:29,996 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:16:45,291 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:16:45,291 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:17:00,591 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:17:00,592 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:17:15,899 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:17:15,900 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:17:32,976 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:17:32,977 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:17:48,344 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:17:48,344 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:18:05,718 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:18:05,719 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:18:21,142 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:18:21,143 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:18:36,386 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:18:36,387 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:18:55,275 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:18:55,276 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:19:10,516 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:19:10,516 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:19:25,803 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:19:25,803 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:19:41,078 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:19:41,079 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:19:56,606 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:19:56,607 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:20:11,870 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:20:11,870 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:20:27,149 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:20:27,150 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:20:42,489 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:20:42,490 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:20:57,783 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:20:57,784 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:21:13,040 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:21:13,041 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:21:28,350 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:21:28,351 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:21:43,668 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:21:43,668 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:21:58,976 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:21:58,977 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:22:14,273 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:22:14,274 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:22:29,512 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:22:29,513 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:22:45,147 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:22:45,148 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:23:00,392 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:23:00,392 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:23:15,695 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:23:15,696 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:23:30,988 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:23:30,988 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:23:46,256 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:23:46,257 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:24:01,537 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:24:01,538 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:24:16,837 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:24:16,838 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:24:32,152 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:24:32,153 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:24:47,456 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:24:47,457 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:25:05,682 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:25:05,683 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:25:21,023 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:25:21,024 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:25:36,248 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:25:36,249 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:25:51,499 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:25:51,499 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:26:06,780 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:26:06,780 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:26:22,198 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:26:22,199 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:26:37,514 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:26:37,515 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:26:52,790 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:26:52,791 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:27:08,139 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:27:08,139 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:27:23,410 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:27:23,411 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:27:38,773 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:27:38,774 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:27:54,066 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:27:54,066 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:28:09,392 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:28:09,392 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:28:24,662 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:28:24,662 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:28:39,965 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:28:39,966 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:28:55,223 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:28:55,224 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:29:10,494 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:29:10,495 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:29:25,835 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:29:25,836 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:29:41,266 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:29:41,267 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:29:56,565 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:29:56,565 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:30:11,851 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:30:11,851 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:30:27,172 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:30:27,173 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:30:42,488 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:30:42,489 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:30:57,796 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:30:57,797 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:31:13,116 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:31:13,117 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:31:28,400 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:31:28,400 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:31:43,726 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:31:43,727 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:31:59,024 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:31:59,024 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:32:14,292 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:32:14,293 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:32:29,595 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:32:29,596 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:32:44,879 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:32:44,880 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:33:00,205 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:33:00,206 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:33:15,460 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:33:15,461 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:33:30,711 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:33:30,712 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:33:46,205 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:33:46,205 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:34:01,459 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:34:01,460 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:34:16,714 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:34:16,715 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:34:31,980 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:34:31,980 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:34:47,218 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:34:47,219 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:35:02,481 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:35:02,482 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:35:17,865 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:35:17,866 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:35:33,122 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:35:33,123 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:35:48,411 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:35:48,412 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:36:03,744 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:36:03,745 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:36:19,053 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:36:19,054 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:36:35,515 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:36:35,515 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:36:50,771 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:36:50,772 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:37:06,356 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:37:06,357 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:37:21,657 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:37:21,657 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:37:36,889 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:37:36,890 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:37:52,201 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:37:52,202 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:38:07,497 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:38:07,498 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:38:22,897 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:38:22,898 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:38:38,181 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:38:38,182 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:38:53,894 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:38:53,896 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:39:09,224 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:39:09,225 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:39:24,519 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:39:24,519 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:39:39,847 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:39:39,847 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:39:55,154 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:39:55,155 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:40:10,391 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:40:10,391 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:40:25,952 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:40:25,952 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:40:41,281 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:40:41,282 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:40:56,620 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:40:56,621 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:41:11,966 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:41:11,967 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:41:27,254 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:41:27,255 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:41:42,556 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:41:42,556 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:41:58,068 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:41:58,069 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:42:13,420 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:42:13,420 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:42:28,706 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:42:28,706 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:42:44,044 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:42:44,045 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:42:59,312 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:42:59,313 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:43:14,631 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:43:14,631 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:43:29,901 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:43:29,902 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:43:45,196 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:43:45,197 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:44:00,461 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:44:00,462 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:44:15,700 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:44:15,701 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:44:30,996 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:44:30,997 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:44:46,333 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:44:46,334 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:45:01,648 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:45:01,648 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:45:16,956 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:45:16,957 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:45:32,275 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:45:32,276 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:45:47,573 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:45:47,573 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:46:02,875 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:46:02,875 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:46:18,135 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:46:18,136 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:46:33,544 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:46:33,545 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:46:48,970 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:46:48,973 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:47:04,329 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:47:04,330 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:47:19,807 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:47:19,808 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:47:35,924 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:47:35,924 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:47:51,600 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:47:51,601 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:48:06,951 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:48:06,952 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:48:22,227 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:48:22,228 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:48:37,478 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:48:37,480 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:48:52,819 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:48:52,820 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:49:08,097 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:49:08,098 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:49:23,398 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:49:23,399 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:49:38,702 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:49:38,703 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:49:54,193 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:49:54,194 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:50:09,500 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:50:09,503 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:50:24,863 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:50:24,864 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:50:40,114 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:50:40,115 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:50:56,532 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:50:56,533 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:51:11,851 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:51:11,852 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:51:27,160 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:51:27,161 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:51:42,454 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:51:42,455 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:51:57,723 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:51:57,723 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:52:13,419 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:52:13,420 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:52:28,708 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:52:28,708 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:52:43,956 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:52:43,956 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:52:59,253 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:52:59,253 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:53:14,524 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:53:14,525 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:53:29,774 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:53:29,775 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:53:45,181 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:53:45,182 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:54:00,471 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:54:00,472 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:54:15,754 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:54:15,755 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:54:31,052 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:54:31,053 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:54:46,355 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:54:46,356 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:55:01,597 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:55:01,598 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:55:16,895 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:55:16,895 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:55:36,918 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:55:36,919 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:55:52,184 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:55:52,185 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:56:07,577 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:56:07,578 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:56:23,218 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:56:23,218 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:56:38,576 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:56:38,577 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:56:53,894 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:56:53,895 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:57:09,145 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:57:09,146 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:57:25,485 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:57:25,486 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:57:40,793 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:57:40,794 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:57:56,078 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:57:56,078 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:58:11,372 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:58:11,372 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:58:26,623 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:58:26,623 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:58:41,873 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:58:41,873 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:58:57,145 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:58:57,146 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:59:12,409 DEBUG   HandlerThread:63568 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-07 18:59:12,409 DEBUG   SenderThread:63568 [sender.py:send_request():246] send_request: stop_status
+2022-05-07 18:59:26,913 WARNING MainThread:63568 [internal.py:is_dead():387] Internal process exiting, parent pid 115212 disappeared
+2022-05-07 18:59:26,915 ERROR   MainThread:63568 [internal.py:wandb_internal():149] Internal process shutdown.
+2022-05-07 18:59:27,272 INFO    WriterThread:63568 [datastore.py:close():279] close: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\run-tjk2t07a.wandb
+2022-05-07 18:59:27,741 INFO    SenderThread:63568 [sender.py:finish():1110] shutting down sender
+2022-05-07 18:59:27,743 INFO    SenderThread:63568 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-05-07 18:59:27,756 INFO    HandlerThread:63568 [handler.py:finish():806] shutting down handler
+2022-05-07 18:59:28,719 INFO    SenderThread:63568 [dir_watcher.py:finish():342] scan: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files
+2022-05-07 18:59:28,721 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\config.yaml config.yaml
+2022-05-07 18:59:28,725 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\model-best.h5 model-best.h5
+2022-05-07 18:59:28,728 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log output.log
+2022-05-07 18:59:28,739 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\requirements.txt requirements.txt
+2022-05-07 18:59:28,741 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\wandb-metadata.json wandb-metadata.json
+2022-05-07 18:59:28,741 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\wandb-summary.json wandb-summary.json
+2022-05-07 18:59:28,744 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\graph\graph_summary_eec7fdc975e0cb7924b3.graph.json media\graph\graph_summary_eec7fdc975e0cb7924b3.graph.json
+2022-05-07 18:59:28,753 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_0276c71d125a10325640.png media\images\examples_0_0276c71d125a10325640.png
+2022-05-07 18:59:28,757 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_0d585961813297a4d22c.png media\images\examples_0_0d585961813297a4d22c.png
+2022-05-07 18:59:28,757 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_113cf7130028190cb93d.png media\images\examples_0_113cf7130028190cb93d.png
+2022-05-07 18:59:28,757 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_28df79799742cf5d486a.png media\images\examples_0_28df79799742cf5d486a.png
+2022-05-07 18:59:28,757 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_2b3f04ef1f2c279ce339.png media\images\examples_0_2b3f04ef1f2c279ce339.png
+2022-05-07 18:59:28,757 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_2dafb63d136cfbb3cf7f.png media\images\examples_0_2dafb63d136cfbb3cf7f.png
+2022-05-07 18:59:28,760 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_31a5933cf7138c85bd0b.png media\images\examples_0_31a5933cf7138c85bd0b.png
+2022-05-07 18:59:28,762 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_3d97ca27c2be7133b36d.png media\images\examples_0_3d97ca27c2be7133b36d.png
+2022-05-07 18:59:28,768 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_4310359f896241e9f6dc.png media\images\examples_0_4310359f896241e9f6dc.png
+2022-05-07 18:59:28,770 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_43b4457b9c6503350667.png media\images\examples_0_43b4457b9c6503350667.png
+2022-05-07 18:59:28,772 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_4672b95da12d181f03f0.png media\images\examples_0_4672b95da12d181f03f0.png
+2022-05-07 18:59:28,772 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_4bd950f4382726eb2884.png media\images\examples_0_4bd950f4382726eb2884.png
+2022-05-07 18:59:28,772 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_4dd04a829c4a81906ab7.png media\images\examples_0_4dd04a829c4a81906ab7.png
+2022-05-07 18:59:28,773 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_5393e380b676adc8a0d1.png media\images\examples_0_5393e380b676adc8a0d1.png
+2022-05-07 18:59:28,773 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_54e2f01e74bd7653a337.png media\images\examples_0_54e2f01e74bd7653a337.png
+2022-05-07 18:59:28,773 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_5d211610a88a46201f20.png media\images\examples_0_5d211610a88a46201f20.png
+2022-05-07 18:59:28,773 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_5f9e137df95cf9429e8c.png media\images\examples_0_5f9e137df95cf9429e8c.png
+2022-05-07 18:59:28,773 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_651b05129e76cc564ac8.png media\images\examples_0_651b05129e76cc564ac8.png
+2022-05-07 18:59:28,773 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_6545e81d96c0d53739cd.png media\images\examples_0_6545e81d96c0d53739cd.png
+2022-05-07 18:59:28,780 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_6d6e1ba086b044b50757.png media\images\examples_0_6d6e1ba086b044b50757.png
+2022-05-07 18:59:28,780 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_70d5eb1ad95a02f3984e.png media\images\examples_0_70d5eb1ad95a02f3984e.png
+2022-05-07 18:59:28,780 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_732811da00e31ff684d9.png media\images\examples_0_732811da00e31ff684d9.png
+2022-05-07 18:59:28,780 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_8c9d2ca7d3f18f8c6427.png media\images\examples_0_8c9d2ca7d3f18f8c6427.png
+2022-05-07 18:59:28,780 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_8efdfba07ee8f4620c7d.png media\images\examples_0_8efdfba07ee8f4620c7d.png
+2022-05-07 18:59:28,781 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_9c4d2dc17dc62021be9e.png media\images\examples_0_9c4d2dc17dc62021be9e.png
+2022-05-07 18:59:28,781 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_a8e8ac78db07747712a4.png media\images\examples_0_a8e8ac78db07747712a4.png
+2022-05-07 18:59:28,781 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_b8c486a2a87a9e8a525a.png media\images\examples_0_b8c486a2a87a9e8a525a.png
+2022-05-07 18:59:28,781 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_b96206e07607c59f933d.png media\images\examples_0_b96206e07607c59f933d.png
+2022-05-07 18:59:28,781 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_b9c40b45c19b56c81889.png media\images\examples_0_b9c40b45c19b56c81889.png
+2022-05-07 18:59:28,781 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_cb87ff1eee3f02aa8ab3.png media\images\examples_0_cb87ff1eee3f02aa8ab3.png
+2022-05-07 18:59:28,781 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_d625b455076df4a532a4.png media\images\examples_0_d625b455076df4a532a4.png
+2022-05-07 18:59:28,781 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_dd999474c9ebc5d86e15.png media\images\examples_0_dd999474c9ebc5d86e15.png
+2022-05-07 18:59:28,782 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_e873fba126a87056eb8d.png media\images\examples_0_e873fba126a87056eb8d.png
+2022-05-07 18:59:28,782 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_eba1799972cf5f89d955.png media\images\examples_0_eba1799972cf5f89d955.png
+2022-05-07 18:59:28,782 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_ef188bc9bc160e2fbac5.png media\images\examples_0_ef188bc9bc160e2fbac5.png
+2022-05-07 18:59:28,782 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_0_f9963341912886a0f769.png media\images\examples_0_f9963341912886a0f769.png
+2022-05-07 18:59:28,782 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_0138c7edece52c20918b.png media\images\examples_1_0138c7edece52c20918b.png
+2022-05-07 18:59:28,782 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_145fb5927b8896636043.png media\images\examples_1_145fb5927b8896636043.png
+2022-05-07 18:59:28,782 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_15334374e5f7cb3b8ea3.png media\images\examples_1_15334374e5f7cb3b8ea3.png
+2022-05-07 18:59:28,783 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_2c311203d9c13e8c4103.png media\images\examples_1_2c311203d9c13e8c4103.png
+2022-05-07 18:59:28,783 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_462947bc43ba5447ad70.png media\images\examples_1_462947bc43ba5447ad70.png
+2022-05-07 18:59:28,783 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_4692156e21f9c5c7945d.png media\images\examples_1_4692156e21f9c5c7945d.png
+2022-05-07 18:59:28,783 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_46e37409784086ec050c.png media\images\examples_1_46e37409784086ec050c.png
+2022-05-07 18:59:28,783 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_4ba9bc26e159c1a2b0bb.png media\images\examples_1_4ba9bc26e159c1a2b0bb.png
+2022-05-07 18:59:28,783 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_57c3acd927747033cac0.png media\images\examples_1_57c3acd927747033cac0.png
+2022-05-07 18:59:28,783 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_617236eca7d5e8e610eb.png media\images\examples_1_617236eca7d5e8e610eb.png
+2022-05-07 18:59:28,785 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_63f52bce49964689f4ab.png media\images\examples_1_63f52bce49964689f4ab.png
+2022-05-07 18:59:28,785 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_675e6f08a7f80369b673.png media\images\examples_1_675e6f08a7f80369b673.png
+2022-05-07 18:59:28,785 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_6782564a3352deb44f95.png media\images\examples_1_6782564a3352deb44f95.png
+2022-05-07 18:59:28,785 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_7906a804a3a6f727d720.png media\images\examples_1_7906a804a3a6f727d720.png
+2022-05-07 18:59:28,787 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_7aaaae72a84b8b5ec549.png media\images\examples_1_7aaaae72a84b8b5ec549.png
+2022-05-07 18:59:28,787 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_8462e23a2eae65b5f9f5.png media\images\examples_1_8462e23a2eae65b5f9f5.png
+2022-05-07 18:59:28,787 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_8ebf5b53456d78da673d.png media\images\examples_1_8ebf5b53456d78da673d.png
+2022-05-07 18:59:28,787 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_903c5a6ee91377d62e76.png media\images\examples_1_903c5a6ee91377d62e76.png
+2022-05-07 18:59:28,787 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_9a3a022d2c2cbdaa558d.png media\images\examples_1_9a3a022d2c2cbdaa558d.png
+2022-05-07 18:59:28,787 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_9beb452c99558e2ecb6d.png media\images\examples_1_9beb452c99558e2ecb6d.png
+2022-05-07 18:59:28,788 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_9e55db1ef77d2de7a340.png media\images\examples_1_9e55db1ef77d2de7a340.png
+2022-05-07 18:59:28,788 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_a61f07f61c0c1ffc03c7.png media\images\examples_1_a61f07f61c0c1ffc03c7.png
+2022-05-07 18:59:28,788 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_ad357fc1bcd3915d44a8.png media\images\examples_1_ad357fc1bcd3915d44a8.png
+2022-05-07 18:59:28,788 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_af0cdb50eee4ca14a232.png media\images\examples_1_af0cdb50eee4ca14a232.png
+2022-05-07 18:59:28,789 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_b15d6c025e0e39556ede.png media\images\examples_1_b15d6c025e0e39556ede.png
+2022-05-07 18:59:28,789 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_c07eae3e72edd3aa0a00.png media\images\examples_1_c07eae3e72edd3aa0a00.png
+2022-05-07 18:59:28,789 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_c229ba572d8a2c1b5193.png media\images\examples_1_c229ba572d8a2c1b5193.png
+2022-05-07 18:59:28,789 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_c3550fecf90b93519f71.png media\images\examples_1_c3550fecf90b93519f71.png
+2022-05-07 18:59:28,789 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_c3f8c46687fe687f1538.png media\images\examples_1_c3f8c46687fe687f1538.png
+2022-05-07 18:59:28,789 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_c5490031eeccfe5190a8.png media\images\examples_1_c5490031eeccfe5190a8.png
+2022-05-07 18:59:28,790 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_c81d3038510111989949.png media\images\examples_1_c81d3038510111989949.png
+2022-05-07 18:59:28,790 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_d68a289c575d519d902a.png media\images\examples_1_d68a289c575d519d902a.png
+2022-05-07 18:59:28,790 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_e6943f09a08cb93b3005.png media\images\examples_1_e6943f09a08cb93b3005.png
+2022-05-07 18:59:28,790 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_e7262b2a60e2187d057c.png media\images\examples_1_e7262b2a60e2187d057c.png
+2022-05-07 18:59:28,790 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_f56a8fde1154ba895b35.png media\images\examples_1_f56a8fde1154ba895b35.png
+2022-05-07 18:59:28,790 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_1_f5ea2ed819de495cdf96.png media\images\examples_1_f5ea2ed819de495cdf96.png
+2022-05-07 18:59:28,791 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_04cbdb09210095cb6b67.png media\images\examples_2_04cbdb09210095cb6b67.png
+2022-05-07 18:59:28,791 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_06157aa1ea9a2e001920.png media\images\examples_2_06157aa1ea9a2e001920.png
+2022-05-07 18:59:28,791 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_0aa28edfcf943378073d.png media\images\examples_2_0aa28edfcf943378073d.png
+2022-05-07 18:59:28,792 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_0ab43bf5b98d22f7934d.png media\images\examples_2_0ab43bf5b98d22f7934d.png
+2022-05-07 18:59:28,792 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_11eebd54e37822eea9b5.png media\images\examples_2_11eebd54e37822eea9b5.png
+2022-05-07 18:59:28,792 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_1256a11ef293a44f9dba.png media\images\examples_2_1256a11ef293a44f9dba.png
+2022-05-07 18:59:28,792 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_1d1e6ae2e68b409d5446.png media\images\examples_2_1d1e6ae2e68b409d5446.png
+2022-05-07 18:59:28,793 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_20b33080195f7b51fc95.png media\images\examples_2_20b33080195f7b51fc95.png
+2022-05-07 18:59:28,793 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_222a828dc05065d22c3c.png media\images\examples_2_222a828dc05065d22c3c.png
+2022-05-07 18:59:28,793 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_3295a7df1fa602684c71.png media\images\examples_2_3295a7df1fa602684c71.png
+2022-05-07 18:59:28,793 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_34db9f3839998ec72ee4.png media\images\examples_2_34db9f3839998ec72ee4.png
+2022-05-07 18:59:28,793 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_39520f74cde49f7d60aa.png media\images\examples_2_39520f74cde49f7d60aa.png
+2022-05-07 18:59:28,793 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_3e66279dff5106ae0090.png media\images\examples_2_3e66279dff5106ae0090.png
+2022-05-07 18:59:28,794 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_4401825296efa27d1396.png media\images\examples_2_4401825296efa27d1396.png
+2022-05-07 18:59:28,794 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_4a4199b4a6ae427ed48a.png media\images\examples_2_4a4199b4a6ae427ed48a.png
+2022-05-07 18:59:28,794 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_51c853dcadb856ec5f7b.png media\images\examples_2_51c853dcadb856ec5f7b.png
+2022-05-07 18:59:28,794 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_5921725ec478f20de508.png media\images\examples_2_5921725ec478f20de508.png
+2022-05-07 18:59:28,794 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_64804ea71bfb2dfdfef6.png media\images\examples_2_64804ea71bfb2dfdfef6.png
+2022-05-07 18:59:28,794 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_691728e319a4869946b6.png media\images\examples_2_691728e319a4869946b6.png
+2022-05-07 18:59:28,795 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_7ca4143e2914f325d07c.png media\images\examples_2_7ca4143e2914f325d07c.png
+2022-05-07 18:59:28,795 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_7f8462590c866774e68b.png media\images\examples_2_7f8462590c866774e68b.png
+2022-05-07 18:59:28,795 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_839d46b4a2e94a6823fd.png media\images\examples_2_839d46b4a2e94a6823fd.png
+2022-05-07 18:59:28,795 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_8929601781ba6c3c9223.png media\images\examples_2_8929601781ba6c3c9223.png
+2022-05-07 18:59:28,795 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_893fbe7c8e2c73f8f5da.png media\images\examples_2_893fbe7c8e2c73f8f5da.png
+2022-05-07 18:59:28,795 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_9020ccdb76e5f1a2ff42.png media\images\examples_2_9020ccdb76e5f1a2ff42.png
+2022-05-07 18:59:28,795 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_b70f2e212ef6eb7a204f.png media\images\examples_2_b70f2e212ef6eb7a204f.png
+2022-05-07 18:59:28,796 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_b74995f0d3e36d88a3af.png media\images\examples_2_b74995f0d3e36d88a3af.png
+2022-05-07 18:59:28,796 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_c0c667e9f0034f422db0.png media\images\examples_2_c0c667e9f0034f422db0.png
+2022-05-07 18:59:28,796 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_d0fcbf19516f02e34d65.png media\images\examples_2_d0fcbf19516f02e34d65.png
+2022-05-07 18:59:28,796 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_d528375d15bba4b2ce88.png media\images\examples_2_d528375d15bba4b2ce88.png
+2022-05-07 18:59:28,796 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_d681fea13eba624b0065.png media\images\examples_2_d681fea13eba624b0065.png
+2022-05-07 18:59:28,796 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_dd92b9cb800c5616fe08.png media\images\examples_2_dd92b9cb800c5616fe08.png
+2022-05-07 18:59:28,796 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_e152509f7daa47b1ad84.png media\images\examples_2_e152509f7daa47b1ad84.png
+2022-05-07 18:59:28,797 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_f052d0109611fe66de5b.png media\images\examples_2_f052d0109611fe66de5b.png
+2022-05-07 18:59:28,797 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_f826754365fe847c556c.png media\images\examples_2_f826754365fe847c556c.png
+2022-05-07 18:59:28,797 INFO    SenderThread:63568 [dir_watcher.py:finish():356] scan save: c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\media\images\examples_2_f8aa47a50bf0e891a4b0.png media\images\examples_2_f8aa47a50bf0e891a4b0.png
+2022-05-07 18:59:28,799 INFO    SenderThread:63568 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-07 18:59:28,800 INFO    SenderThread:63568 [file_pusher.py:join():150] waiting for file pusher
+2022-05-07 18:59:29,446 INFO    Thread-144:63568 [upload_job.py:push():132] Uploaded file c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\requirements.txt
+2022-05-07 18:59:29,474 INFO    Thread-145:63568 [upload_job.py:push():132] Uploaded file c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\wandb-summary.json
+2022-05-07 18:59:29,487 INFO    Thread-143:63568 [upload_job.py:push():132] Uploaded file c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\output.log
+2022-05-07 18:59:29,766 INFO    Thread-141:63568 [upload_job.py:push():132] Uploaded file c:\Users\jack0\OneDrive\πŸ≈¡ »≠∏È\Python_ML\Deep_Learning\wandb\run-20220507_160827-tjk2t07a\files\config.yaml
+2022-05-07 18:59:30,074 INFO    Thread-142:63568 [upload_job.py:push():132] Uploaded file C:\Users\jack0\AppData\Local\Temp\tmpw78bvy4wwandb\3ul7k29h-model-best.h5
+2022-05-07 20:24:03,256 WARNING FileStreamThread:63568 [file_stream.py:request_with_retry():593] requests_with_retry encountered retryable exception: ('Connection aborted.', ConnectionAbortedError(10053, '«ˆ¿Á ø¨∞·¿∫ ªÁøÎ¿⁄¿« »£Ω∫∆Æ Ω√Ω∫≈€¿« º“«¡∆Æø˛æÓ¿« ¿««ÿ ¡ﬂ¥‹µ«æ˙Ω¿¥œ¥Ÿ', None, 10053, None)). func: <bound method Session.post of <requests.sessions.Session object at 0x0000024ECD56D3D0>>, args: ('https://api.wandb.ai/files/jack04215/fast_campus_deep_learning(Tensorflow)/tjk2t07a/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-05-07 20:24:07,459 INFO    MainThread:63568 [internal.py:handle_exit():80] Internal process exited
